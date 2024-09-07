@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -20,12 +20,18 @@ h2 {
 
 /*header*/
 
-header {
+.main-bar {
     background-color: #ffcc00;
     height: 500px;
 }
+
+header {
+    background-color: #ffcc00;
+    height: 300px;
+}
 header img {
     width: 30%;
+    padding-left: 60%;
 }
 .about-container {
     display: grid;
